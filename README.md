@@ -1,6 +1,3 @@
 # healthcheck
-github coursera course healthcheck
-
-this is a repo of the github course of coursera offered by the google
-
-this was edited in gthub repo thorugh chrome
+This is a repo for hosting python flask app using nginx and gunicorn
+https://jgefroh.medium.com/a-guide-to-using-nginx-for-static-websites-d96a9d034940 for SSL using with nginx
