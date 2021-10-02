@@ -1,6 +1,4 @@
-# healthcheck
-This is a repo for hosting python flask app using nginx and gunicorn
-for this you can refer to nginx conf.txt
-
-
-https://jgefroh.medium.com/a-guide-to-using-nginx-for-static-websites-d96a9d034940 for SSL using with nginx
+FOR MYSQL STUDIES REFER THIS REPO 
+these are the handy youtube links from where these snaps are taken 
+https://www.youtube.com/watch?v=-zwD3bfJjqw&list=LL&index=101
+https://www.youtube.com/watch?v=QhUN_VedgV0&list=LL&index=100
