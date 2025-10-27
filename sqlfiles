@@ -10,3 +10,15 @@
         sum(Weight) over (order by turn ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) as consecutive_weight
     from Queue 
 )
+
+
+## if else 
+
+SELECT 
+        account_id,
+        CASE
+            WHEN income < 20000 THEN 'Low Salary'
+            WHEN income >= 20000 AND income <= 50000 THEN 'Average Salary'
+            ELSE 'High Salary'
+        END AS category
+    FROM Accounts
