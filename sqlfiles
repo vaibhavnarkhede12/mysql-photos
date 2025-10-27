@@ -1,0 +1,12 @@
+## consecutive addition 
+
+1 . SELECT person_name, SUM(weight) OVER(ORDER BY turn ASC) AS sum
+    FROM Queue
+
+2. with cte as(
+    select 
+        person_name,
+        weight,
+        sum(Weight) over (order by turn ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) as consecutive_weight
+    from Queue 
+)
